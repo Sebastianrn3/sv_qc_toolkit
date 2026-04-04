@@ -1,0 +1,118 @@
+0
+  message: CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH
+  success: True
+   status: 0
+      fun: -1.2239193697381063
+        x: [-8.417e+00 -8.944e+00 ...  7.621e-01 -9.498e+00]
+      nit: 106
+      jac: [ 3.086e-05 -9.867e-06 ...  7.033e-05  8.686e-06]
+     nfev: 156
+     njev: 156
+ hess_inv: <375x375 LbfgsInvHessProduct with dtype=float64>
+Set of images saved
+res saved into C:\Users\User\Desktop\qc_mopac\data\jobs\aspartate_decarb\03_opt\opt_result.npz
+1
+  message: CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH
+  success: True
+   status: 0
+      fun: -1.2238699680935397
+        x: [-8.476e+00 -8.955e+00 ...  7.901e-01 -9.523e+00]
+      nit: 110
+      jac: [ 8.593e-05 -1.686e-04 ... -5.684e-05 -6.038e-05]
+     nfev: 132
+     njev: 132
+ hess_inv: <375x375 LbfgsInvHessProduct with dtype=float64>
+Set of images saved
+res saved into C:\Users\User\Desktop\qc_mopac\data\jobs\aspartate_decarb\03_opt\opt_result.npz
+2
+  message: CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH
+  success: True
+   status: 0
+      fun: -1.2358602253103468
+        x: [-8.930e+00 -8.913e+00 ...  1.060e+00 -9.618e+00]
+      nit: 220
+      jac: [-3.364e-04  1.063e-05 ...  6.831e-06 -3.930e-05]
+     nfev: 280
+     njev: 280
+ hess_inv: <375x375 LbfgsInvHessProduct with dtype=float64>
+Set of images saved
+res saved into C:\Users\User\Desktop\qc_mopac\data\jobs\aspartate_decarb\03_opt\opt_result.npz
+3
+  message: CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH
+  success: True
+   status: 0
+      fun: -1.23550007138544
+        x: [-8.909e+00 -8.936e+00 ...  1.068e+00 -9.610e+00]
+      nit: 185
+      jac: [-5.945e-05 -1.722e-04 ... -1.585e-04  1.996e-04]
+     nfev: 231
+     njev: 231
+ hess_inv: <375x375 LbfgsInvHessProduct with dtype=float64>
+Set of images saved
+res saved into C:\Users\User\Desktop\qc_mopac\data\jobs\aspartate_decarb\03_opt\opt_result.npz
+4
+  message: CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH
+  success: True
+   status: 0
+      fun: -1.2343463039445883
+        x: [-8.844e+00 -8.957e+00 ...  9.436e-01 -9.617e+00]
+      nit: 129
+      jac: [-2.200e-04 -4.505e-04 ...  1.864e-05  2.589e-05]
+     nfev: 159
+     njev: 159
+ hess_inv: <375x375 LbfgsInvHessProduct with dtype=float64>
+Set of images saved
+res saved into C:\Users\User\Desktop\qc_mopac\data\jobs\aspartate_decarb\03_opt\opt_result.npz
+5
+  message: CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH
+  success: True
+   status: 0
+      fun: -1.210941079629962
+        x: [-8.784e+00 -8.879e+00 ...  8.082e-01 -9.772e+00]
+      nit: 14
+      jac: [-1.104e-03  3.115e-03 ... -8.414e-04  9.800e-04]
+     nfev: 45
+     njev: 45
+ hess_inv: <375x375 LbfgsInvHessProduct with dtype=float64>
+Set of images saved
+res saved into C:\Users\User\Desktop\qc_mopac\data\jobs\aspartate_decarb\03_opt\opt_result.npz
+6
+  message: CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH
+  success: True
+   status: 0
+      fun: -1.2436417811303455
+        x: [-8.749e+00 -8.539e+00 ...  9.953e-01 -9.678e+00]
+      nit: 454
+      jac: [ 7.442e-04  5.422e-04 ...  8.155e-05 -4.048e-06]
+     nfev: 622
+     njev: 622
+ hess_inv: <375x375 LbfgsInvHessProduct with dtype=float64>
+Set of images saved
+res saved into C:\Users\User\Desktop\qc_mopac\data\jobs\aspartate_decarb\03_opt\opt_result.npz
+7
+  message: CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH
+  success: True
+   status: 0
+      fun: -1.2363972689948317
+        x: [-8.798e+00 -8.977e+00 ...  1.028e+00 -9.620e+00]
+      nit: 162
+      jac: [-6.999e-06  4.132e-06 ...  5.431e-05  8.391e-05]
+     nfev: 206
+     njev: 206
+ hess_inv: <375x375 LbfgsInvHessProduct with dtype=float64>
+Set of images saved
+res saved into C:\Users\User\Desktop\qc_mopac\data\jobs\aspartate_decarb\03_opt\opt_result.npz
+8
+  message: CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH
+  success: True
+   status: 0
+      fun: -1.2353662088646782
+        x: [-8.763e+00 -8.974e+00 ...  9.779e-01 -9.671e+00]
+      nit: 108
+      jac: [-2.419e-04 -4.058e-04 ...  6.190e-05 -5.085e-05]
+     nfev: 150
+     njev: 150
+ hess_inv: <375x375 LbfgsInvHessProduct with dtype=float64>
+Set of images saved
+res saved into C:\Users\User\Desktop\qc_mopac\data\jobs\aspartate_decarb\03_opt\opt_result.npz
+all relaxations done [-1.2239193697381063, -1.2238699680935397, -1.2358602253103468, -1.23550007138544, -1.2343463039445883, -1.210941079629962, -1.2436417811303455, -1.2363972689948317, -1.2353662088646782]

@@ -1,0 +1,122 @@
+0
+  message: CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH
+  success: True
+   status: 0
+      fun: -0.5626146131532335
+        x: [-5.347e+00 -1.329e+00 ... -3.319e+00 -7.574e-01]
+      nit: 108
+      jac: [ 4.798e-05  7.725e-05 ... -8.349e-06 -6.696e-05]
+     nfev: 153
+     njev: 153
+ hess_inv: <102x102 LbfgsInvHessProduct with dtype=float64>
+Set of images saved
+res saved into C:\Users\User\Desktop\qc_mopac\data\jobs\cocaine\03_opt\opt_result.npz
+1
+  message: CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH
+  success: True
+   status: 0
+      fun: -0.5633906970533644
+        x: [-4.862e+00 -1.148e+00 ... -3.437e+00 -5.625e-01]
+      nit: 78
+      jac: [ 2.064e-04  3.624e-04 ...  2.118e-04 -2.562e-04]
+     nfev: 95
+     njev: 95
+ hess_inv: <102x102 LbfgsInvHessProduct with dtype=float64>
+Set of images saved
+res saved into C:\Users\User\Desktop\qc_mopac\data\jobs\cocaine\03_opt\opt_result.npz
+2
+  message: CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH
+  success: True
+   status: 0
+      fun: -0.5637843166084616
+        x: [-4.710e+00 -1.100e+00 ... -3.483e+00 -3.815e-01]
+      nit: 97
+      jac: [ 9.799e-05 -1.278e-04 ... -1.180e-04  1.265e-05]
+     nfev: 137
+     njev: 137
+ hess_inv: <102x102 LbfgsInvHessProduct with dtype=float64>
+Set of images saved
+res saved into C:\Users\User\Desktop\qc_mopac\data\jobs\cocaine\03_opt\opt_result.npz
+3
+  message: CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH
+  success: True
+   status: 0
+      fun: -0.5617142283409666
+        x: [-3.659e+00 -1.350e+00 ... -3.545e+00  2.535e-01]
+      nit: 37
+      jac: [ 2.345e-04 -2.530e-05 ... -4.870e-04 -3.436e-04]
+     nfev: 66
+     njev: 66
+ hess_inv: <102x102 LbfgsInvHessProduct with dtype=float64>
+Set of images saved
+res saved into C:\Users\User\Desktop\qc_mopac\data\jobs\cocaine\03_opt\opt_result.npz
+4
+  message: CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH
+  success: True
+   status: 0
+      fun: -0.5843784279870899
+        x: [-3.572e+00 -1.140e+00 ... -2.461e+00  1.357e+00]
+      nit: 128
+      jac: [-3.803e-04 -2.882e-04 ...  7.182e-04 -6.292e-04]
+     nfev: 155
+     njev: 155
+ hess_inv: <102x102 LbfgsInvHessProduct with dtype=float64>
+Set of images saved
+res saved into C:\Users\User\Desktop\qc_mopac\data\jobs\cocaine\03_opt\opt_result.npz
+5
+  message: CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH
+  success: True
+   status: 0
+      fun: -0.5853712416827401
+        x: [-2.875e+00 -1.209e+00 ... -3.176e+00  1.344e+00]
+      nit: 281
+      jac: [ 1.764e-04 -4.320e-04 ... -2.741e-04 -3.551e-04]
+     nfev: 303
+     njev: 303
+ hess_inv: <102x102 LbfgsInvHessProduct with dtype=float64>
+Set of images saved
+res saved into C:\Users\User\Desktop\qc_mopac\data\jobs\cocaine\03_opt\opt_result.npz
+6
+0
+0
+  message: CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH
+  success: True
+   status: 0
+      fun: -0.5626146131532335
+        x: [-5.347e+00 -1.329e+00 ... -3.319e+00 -7.574e-01]
+      nit: 108
+      jac: [ 4.798e-05  7.725e-05 ... -8.349e-06 -6.696e-05]
+     nfev: 153
+     njev: 153
+ hess_inv: <102x102 LbfgsInvHessProduct with dtype=float64>
+Set of images saved
+res saved into C:\Users\User\Desktop\qc_mopac\data\jobs\cocaine\03_opt\opt_result.npz
+1
+0
+  message: CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH
+  success: True
+   status: 0
+      fun: -0.5626146131532335
+        x: [-5.347e+00 -1.329e+00 ... -3.319e+00 -7.574e-01]
+      nit: 108
+      jac: [ 4.798e-05  7.725e-05 ... -8.349e-06 -6.696e-05]
+     nfev: 153
+     njev: 153
+ hess_inv: <102x102 LbfgsInvHessProduct with dtype=float64>
+Set of images saved
+res saved into C:\Users\User\Desktop\qc_mopac\data\jobs\cocaine\03_opt\opt_result.npz
+1
+  message: CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH
+  success: True
+   status: 0
+      fun: -0.5627628180869341
+        x: [-5.226e+00 -1.093e+00 ... -3.420e+00 -7.534e-01]
+      nit: 98
+      jac: [ 4.343e-05  2.572e-05 ... -2.361e-06 -5.793e-05]
+     nfev: 143
+     njev: 143
+ hess_inv: <102x102 LbfgsInvHessProduct with dtype=float64>
+Set of images saved
+res saved into C:\Users\User\Desktop\qc_mopac\data\jobs\cocaine\03_opt\opt_result.npz
+2
+0

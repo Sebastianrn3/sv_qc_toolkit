@@ -1,0 +1,423 @@
+C:\Users\User\AppData\Local\Programs\Python\Python313\python.exe C:\Users\User\Desktop\qc_mopac\main.py 
+Calculation started
+0.9779186032380066
+C:\Users\User\Desktop\qc_mopac\data\jobs\aspartate_decarb\03_opt\asp_decarb_n7_linear_04\relaxation_0R.npz 0R 0
+C:\Users\User\Desktop\qc_mopac\data\jobs\aspartate_decarb\03_opt\asp_decarb_n7_linear_04\relaxation_1of7.npz 1of7 1
+C:\Users\User\Desktop\qc_mopac\data\jobs\aspartate_decarb\03_opt\asp_decarb_n7_linear_04\relaxation_2of7.npz 2of7 2
+C:\Users\User\Desktop\qc_mopac\data\jobs\aspartate_decarb\03_opt\asp_decarb_n7_linear_04\relaxation_3of7.npz 3of7 3
+C:\Users\User\Desktop\qc_mopac\data\jobs\aspartate_decarb\03_opt\asp_decarb_n7_linear_04\relaxation_4of7.npz 4of7 4
+C:\Users\User\Desktop\qc_mopac\data\jobs\aspartate_decarb\03_opt\asp_decarb_n7_linear_04\relaxation_5of7.npz 5of7 5
+C:\Users\User\Desktop\qc_mopac\data\jobs\aspartate_decarb\03_opt\asp_decarb_n7_linear_04\relaxation_6of7.npz 6of7 6
+C:\Users\User\Desktop\qc_mopac\data\jobs\aspartate_decarb\03_opt\asp_decarb_n7_linear_04\relaxation_7of7.npz 7of7 7
+C:\Users\User\Desktop\qc_mopac\data\jobs\aspartate_decarb\03_opt\asp_decarb_n7_linear_04\relaxation_8P.npz 8P 8
+Images in chain: 7 +2  Selected: 7  Combos: 823543 , miu= 0.1
+Meaningfuls are 823543/823543
+Top combos:
+1. score = 0.085960, inner combo = (0, 3, 0, 0, 0, 1, 2)
+2. score = 0.085313, inner combo = (0, 4, 0, 0, 0, 1, 2)
+3. score = 0.085214, inner combo = (0, 2, 0, 0, 0, 1, 2)
+4. score = 0.085137, inner combo = (1, 2, 0, 0, 0, 1, 2)
+5. score = 0.084198, inner combo = (0, 3, 0, 0, 1, 3, 2)
+6. score = 0.083944, inner combo = (1, 3, 0, 0, 0, 1, 2)
+7. score = 0.083788, inner combo = (0, 3, 0, 0, 1, 0, 0)
+8. score = 0.083758, inner combo = (0, 3, 0, 0, 0, 1, 3)
+9. score = 0.083551, inner combo = (0, 4, 0, 0, 1, 3, 2)
+10. score = 0.083532, inner combo = (0, 3, 0, 0, 1, 3, 6)
+
+Diagnostics:
+cos2 median              =4.562e-04
+cos median               =6.015e-03
+abs(cos) median          =2.136e-02
+abs(cos) p95             =8.324e-02
+50430 0.08596043788664526 (0, 3, 0, 0, 0, 1, 2)
+67237 0.08531274480561293 (0, 4, 0, 0, 0, 1, 2)
+33623 0.0852138800303828 (0, 2, 0, 0, 0, 1, 2)
+151272 0.08513683109984 (1, 2, 0, 0, 0, 1, 2)
+50493 0.08419825091255796 (0, 3, 0, 0, 1, 3, 2)
+168079 0.0839441868068013 (1, 3, 0, 0, 0, 1, 2)
+50470 0.0837884577604123 (0, 3, 0, 0, 1, 0, 0)
+50431 0.08375759096557293 (0, 3, 0, 0, 0, 1, 3)
+67300 0.08355055783152564 (0, 4, 0, 0, 1, 3, 2)
+50497 0.08353151752374406 (0, 3, 0, 0, 1, 3, 6)
+FULL COMBO: (6, 0, 3, 0, 0, 0, 1, 2, 6)
+==========
+
+----------------------------------------------------------------------------------------------------
+bead t = 1
+indices: prev=6, cur=0, next=3
+----------------------------------------------------------------------------------------------------
+score:
+  triplet_score      = 4.63827320e-03
+  cos                = -6.81048692e-02
+  cos^2              = 4.63827320e-03
+  angle(g, tangent)  = 93.905 deg
+
+energy:
+  E_prev             = -1.223919369738
+  E_i                = -1.189854545407
+  E_next             = -1.216024668216
+  dE(prev->i)        = 3.40648243e-02
+  dE(i->next)        = -2.61701228e-02
+  dE(prev->next)     = 7.89470152e-03
+
+norms:
+  |g|                = 8.27917463e-02
+  |prev->next|       = 7.25146668e+00
+  |prev->i|          = 6.42843976e+00
+  |i->next|          = 3.48305810e+00
+
+extra cosines:
+  cos(g, prev->i)    = 1.13542469e-01   angle=83.480
+  cos(g, i->next)    = -6.77682443e-02   angle=93.886
+  cos(g, prev->next) = 6.81048692e-02   angle=86.095
+
+g decomposition relative to tangent:
+  |g_parallel|       = 5.63852105e-03
+  |g_perp|           = 8.25995178e-02
+  parallel_frac      = 6.81048692e-02
+
+moving-coordinate diagnostics:
+  moving coords      = 405/405  (tol=1.0e-10)
+  cos on moving only = -6.81048692e-02
+
+atom-wise cancellation diagnostics:
+  dot total          = -4.08875475e-02
+  sum |atom dots|    = 1.17099638e-01
+  cancellation ratio = 3.49168864e-01
+
+top atom contributions to g·tangent:
+  atom 63 : dot=-6.370088e-03  |g_a|= 1.155263e-02  |t_a|= 7.185965e-01  |prev->i|= 2.446813e-01  |i->next|= 5.175935e-01  cos_a=-7.673250e-01
+  atom 22 : dot=-6.270637e-03  |g_a|= 1.161689e-02  |t_a|= 9.617487e-01  |prev->i|= 7.489686e-01  |i->next|= 2.140491e-01  cos_a=-5.612549e-01
+  atom 87 : dot= 6.207648e-03  |g_a|= 1.053364e-02  |t_a|= 1.669308e+00  |prev->i|= 1.141494e+00  |i->next|= 5.332677e-01  cos_a= 3.530304e-01
+  atom 65 : dot=-6.119114e-03  |g_a|= 1.456606e-02  |t_a|= 8.544665e-01  |prev->i|= 4.719508e-01  |i->next|= 4.219759e-01  cos_a=-4.916447e-01
+  atom 62 : dot=-5.547185e-03  |g_a|= 3.146341e-02  |t_a|= 1.440318e+00  |prev->i|= 3.395464e-01  |i->next|= 1.117405e+00  cos_a=-1.224076e-01
+  atom 57 : dot=-5.263179e-03  |g_a|= 9.870781e-03  |t_a|= 8.007346e-01  |prev->i|= 2.470531e-01  |i->next|= 6.681411e-01  cos_a=-6.658984e-01
+  atom 18 : dot=-4.661748e-03  |g_a|= 6.293387e-03  |t_a|= 8.627243e-01  |prev->i|= 1.186272e+00  |i->next|= 3.305348e-01  cos_a=-8.586028e-01
+  atom 112 : dot=-3.367384e-03  |g_a|= 9.557620e-03  |t_a|= 6.750542e-01  |prev->i|= 2.442283e-01  |i->next|= 5.454974e-01  cos_a=-5.219203e-01
+
+----------------------------------------------------------------------------------------------------
+bead t = 2
+indices: prev=0, cur=3, next=0
+----------------------------------------------------------------------------------------------------
+score:
+  triplet_score      = 1.26899808e-03
+  cos                = 3.56229993e-02
+  cos^2              = 1.26899808e-03
+  angle(g, tangent)  = 87.959 deg
+
+energy:
+  E_prev             = -1.189854545407
+  E_i                = -1.216024668216
+  E_next             = -1.131705622549
+  dE(prev->i)        = -2.61701228e-02
+  dE(i->next)        = 8.43190457e-02
+  dE(prev->next)     = 5.81489229e-02
+
+norms:
+  |g|                = 5.52901958e-02
+  |prev->next|       = 4.36264574e+00
+  |prev->i|          = 3.48305810e+00
+  |i->next|          = 3.27758925e+00
+
+extra cosines:
+  cos(g, prev->i)    = -2.68223312e-02   angle=91.537
+  cos(g, i->next)    = -1.89123113e-02   angle=91.084
+  cos(g, prev->next) = -3.56229993e-02   angle=92.041
+
+g decomposition relative to tangent:
+  |g_parallel|       = 1.96960260e-03
+  |g_perp|           = 5.52551030e-02
+  parallel_frac      = 3.56229993e-02
+
+moving-coordinate diagnostics:
+  moving coords      = 405/405  (tol=1.0e-10)
+  cos on moving only = 3.56229993e-02
+
+atom-wise cancellation diagnostics:
+  dot total          = 8.59267840e-03
+  sum |atom dots|    = 6.48548478e-02
+  cancellation ratio = 1.32490919e-01
+
+top atom contributions to g·tangent:
+  atom 62 : dot= 2.323034e-02  |g_a|= 3.825907e-02  |t_a|= 6.823586e-01  |prev->i|= 1.117405e+00  |i->next|= 8.060212e-01  cos_a= 8.898330e-01
+  atom 63 : dot=-1.049005e-02  |g_a|= 1.926043e-02  |t_a|= 6.439646e-01  |prev->i|= 5.175935e-01  |i->next|= 4.178079e-01  cos_a=-8.457643e-01
+  atom 65 : dot=-1.010178e-02  |g_a|= 2.000697e-02  |t_a|= 5.516139e-01  |prev->i|= 4.219759e-01  |i->next|= 4.604538e-01  cos_a=-9.153378e-01
+  atom 25 : dot= 1.961965e-03  |g_a|= 3.745308e-03  |t_a|= 1.319215e+00  |prev->i|= 5.625762e-01  |i->next|= 8.645524e-01  cos_a= 3.970892e-01
+  atom 57 : dot=-1.610702e-03  |g_a|= 3.441326e-03  |t_a|= 6.642963e-01  |prev->i|= 6.681411e-01  |i->next|= 1.624939e-01  cos_a=-7.045753e-01
+  atom 90 : dot= 1.231786e-03  |g_a|= 1.648313e-03  |t_a|= 1.669873e+00  |prev->i|= 1.046739e+00  |i->next|= 1.024787e+00  cos_a= 4.475197e-01
+  atom 97 : dot= 1.155332e-03  |g_a|= 1.867643e-03  |t_a|= 6.649530e-01  |prev->i|= 4.573112e-01  |i->next|= 2.228933e-01  cos_a= 9.302976e-01
+  atom 24 : dot=-8.927312e-04  |g_a|= 3.347715e-03  |t_a|= 3.157129e-01  |prev->i|= 1.276717e-01  |i->next|= 3.479905e-01  cos_a=-8.446560e-01
+
+----------------------------------------------------------------------------------------------------
+bead t = 3
+indices: prev=3, cur=0, next=0
+----------------------------------------------------------------------------------------------------
+score:
+  triplet_score      = 3.70785074e-02
+  cos                = -1.92557803e-01
+  cos^2              = 3.70785074e-02
+  angle(g, tangent)  = 101.102 deg
+
+energy:
+  E_prev             = -1.216024668216
+  E_i                = -1.131705622549
+  E_next             = -1.125168669452
+  dE(prev->i)        = 8.43190457e-02
+  dE(i->next)        = 6.53695310e-03
+  dE(prev->next)     = 9.08559988e-02
+
+norms:
+  |g|                = 1.89592552e-01
+  |prev->next|       = 4.93831078e+00
+  |prev->i|          = 3.27758925e+00
+  |i->next|          = 2.18376160e+00
+
+extra cosines:
+  cos(g, prev->i)    = 2.61317715e-01   angle=74.852
+  cos(g, i->next)    = 4.32364679e-02   angle=87.522
+  cos(g, prev->next) = 1.92557803e-01   angle=78.898
+
+g decomposition relative to tangent:
+  |g_parallel|       = 3.65075253e-02
+  |g_perp|           = 1.86044448e-01
+  parallel_frac      = 1.92557803e-01
+
+moving-coordinate diagnostics:
+  moving coords      = 405/405  (tol=1.0e-10)
+  cos on moving only = -1.92557803e-01
+
+atom-wise cancellation diagnostics:
+  dot total          = -1.80285505e-01
+  sum |atom dots|    = 2.65901662e-01
+  cancellation ratio = 6.78015714e-01
+
+top atom contributions to g·tangent:
+  atom 90 : dot=-6.720299e-02  |g_a|= 6.067228e-02  |t_a|= 1.774283e+00  |prev->i|= 1.024787e+00  |i->next|= 8.452967e-01  cos_a=-6.242742e-01
+  atom 91 : dot=-1.864558e-02  |g_a|= 3.033909e-02  |t_a|= 1.352525e+00  |prev->i|= 7.845915e-01  |i->next|= 6.031929e-01  cos_a=-4.543890e-01
+  atom 87 : dot=-1.226924e-02  |g_a|= 5.722624e-02  |t_a|= 1.128096e+00  |prev->i|= 6.144138e-01  |i->next|= 5.332456e-01  cos_a=-1.900536e-01
+  atom 22 : dot=-1.224815e-02  |g_a|= 4.620799e-02  |t_a|= 8.690136e-01  |prev->i|= 5.189376e-01  |i->next|= 3.538988e-01  cos_a=-3.050190e-01
+  atom 113 : dot=-1.114295e-02  |g_a|= 1.470090e-02  |t_a|= 1.116189e+00  |prev->i|= 8.398575e-01  |i->next|= 2.783498e-01  cos_a=-6.790764e-01
+  atom 62 : dot=-9.969815e-03  |g_a|= 5.830797e-02  |t_a|= 8.638269e-01  |prev->i|= 8.060212e-01  |i->next|= 3.107143e-01  cos_a=-1.979395e-01
+  atom 89 : dot= 9.881395e-03  |g_a|= 6.274470e-02  |t_a|= 4.147309e-01  |prev->i|= 1.900979e-01  |i->next|= 2.396811e-01  cos_a= 3.797299e-01
+  atom 23 : dot=-8.907534e-03  |g_a|= 3.574862e-02  |t_a|= 8.881386e-01  |prev->i|= 5.575690e-01  |i->next|= 3.496797e-01  cos_a=-2.805546e-01
+
+----------------------------------------------------------------------------------------------------
+bead t = 4
+indices: prev=0, cur=0, next=0
+----------------------------------------------------------------------------------------------------
+score:
+  triplet_score      = 3.99570951e-03
+  cos                = 6.32116248e-02
+  cos^2              = 3.99570951e-03
+  angle(g, tangent)  = 86.376 deg
+
+energy:
+  E_prev             = -1.131705622549
+  E_i                = -1.125168669452
+  E_next             = -1.169695487221
+  dE(prev->i)        = 6.53695310e-03
+  dE(i->next)        = -4.45268178e-02
+  dE(prev->next)     = -3.79898647e-02
+
+norms:
+  |g|                = 2.10059066e-01
+  |prev->next|       = 4.40163616e+00
+  |prev->i|          = 2.18376160e+00
+  |i->next|          = 2.22485255e+00
+
+extra cosines:
+  cos(g, prev->i)    = -1.97843232e-02   angle=91.134
+  cos(g, i->next)    = -1.05638609e-01   angle=96.064
+  cos(g, prev->next) = -6.32116248e-02   angle=93.624
+
+g decomposition relative to tangent:
+  |g_parallel|       = 1.32781749e-02
+  |g_perp|           = 2.09638979e-01
+  parallel_frac      = 6.32116248e-02
+
+moving-coordinate diagnostics:
+  moving coords      = 405/405  (tol=1.0e-10)
+  cos on moving only = 6.32116248e-02
+
+atom-wise cancellation diagnostics:
+  dot total          = 5.84456947e-02
+  sum |atom dots|    = 1.74871996e-01
+  cancellation ratio = 3.34219864e-01
+
+top atom contributions to g·tangent:
+  atom 89 : dot= 2.306482e-02  |g_a|= 6.913060e-02  |t_a|= 5.421992e-01  |prev->i|= 2.396811e-01  |i->next|= 3.058814e-01  cos_a= 6.153480e-01
+  atom 90 : dot=-1.633853e-02  |g_a|= 6.688963e-02  |t_a|= 1.696192e+00  |prev->i|= 8.452967e-01  |i->next|= 8.530217e-01  cos_a=-1.440056e-01
+  atom 87 : dot= 1.430591e-02  |g_a|= 6.404711e-02  |t_a|= 1.086138e+00  |prev->i|= 5.332456e-01  |i->next|= 5.551010e-01  cos_a= 2.056511e-01
+  atom 57 : dot= 1.175888e-02  |g_a|= 3.125445e-02  |t_a|= 6.101675e-01  |prev->i|= 2.962365e-01  |i->next|= 3.143003e-01  cos_a= 6.166022e-01
+  atom 25 : dot= 9.143891e-03  |g_a|= 1.761822e-02  |t_a|= 1.364150e+00  |prev->i|= 6.789969e-01  |i->next|= 6.852748e-01  cos_a= 3.804583e-01
+  atom 62 : dot= 8.838972e-03  |g_a|= 7.103945e-02  |t_a|= 6.271841e-01  |prev->i|= 3.107143e-01  |i->next|= 3.176323e-01  cos_a= 1.983842e-01
+  atom 60 : dot= 6.064145e-03  |g_a|= 1.875231e-02  |t_a|= 1.001557e+00  |prev->i|= 4.935613e-01  |i->next|= 5.085349e-01  cos_a= 3.228785e-01
+  atom 22 : dot=-5.947183e-03  |g_a|= 4.825404e-02  |t_a|= 7.135306e-01  |prev->i|= 3.538988e-01  |i->next|= 3.613259e-01  cos_a=-1.727289e-01
+
+----------------------------------------------------------------------------------------------------
+bead t = 5
+indices: prev=0, cur=0, next=1
+----------------------------------------------------------------------------------------------------
+score:
+  triplet_score      = 2.94747383e-02
+  cos                = 1.71682085e-01
+  cos^2              = 2.94747383e-02
+  angle(g, tangent)  = 80.114 deg
+
+energy:
+  E_prev             = -1.125168669452
+  E_i                = -1.169695487221
+  E_next             = -1.217478032727
+  dE(prev->i)        = -4.45268178e-02
+  dE(i->next)        = -4.77825455e-02
+  dE(prev->next)     = -9.23093633e-02
+
+norms:
+  |g|                = 1.41889882e-01
+  |prev->next|       = 4.70857739e+00
+  |prev->i|          = 2.22485255e+00
+  |i->next|          = 2.59598583e+00
+
+extra cosines:
+  cos(g, prev->i)    = -8.64477276e-02   angle=94.959
+  cos(g, i->next)    = -2.37306741e-01   angle=103.728
+  cos(g, prev->next) = -1.71682085e-01   angle=99.886
+
+g decomposition relative to tangent:
+  |g_parallel|       = 2.43599508e-02
+  |g_perp|           = 1.39783158e-01
+  parallel_frac      = 1.71682085e-01
+
+moving-coordinate diagnostics:
+  moving coords      = 405/405  (tol=1.0e-10)
+  cos on moving only = 1.71682085e-01
+
+atom-wise cancellation diagnostics:
+  dot total          = 1.14700713e-01
+  sum |atom dots|    = 1.69058388e-01
+  cancellation ratio = 6.78468039e-01
+
+top atom contributions to g·tangent:
+  atom 87 : dot= 2.336909e-02  |g_a|= 4.539629e-02  |t_a|= 1.246297e+00  |prev->i|= 5.551010e-01  |i->next|= 6.976446e-01  cos_a= 4.130473e-01
+  atom 90 : dot= 1.914854e-02  |g_a|= 4.202972e-02  |t_a|= 1.962497e+00  |prev->i|= 8.530217e-01  |i->next|= 1.123548e+00  cos_a= 2.321508e-01
+  atom 89 : dot= 1.379402e-02  |g_a|= 3.707798e-02  |t_a|= 5.109026e-01  |prev->i|= 3.058814e-01  |i->next|= 2.286751e-01  cos_a= 7.281768e-01
+  atom 91 : dot= 9.088097e-03  |g_a|= 2.810131e-02  |t_a|= 1.375542e+00  |prev->i|= 6.050214e-01  |i->next|= 7.949974e-01  cos_a= 2.351108e-01
+  atom 22 : dot=-8.303384e-03  |g_a|= 4.043087e-02  |t_a|= 6.479568e-01  |prev->i|= 3.613259e-01  |i->next|= 2.903486e-01  cos_a=-3.169538e-01
+  atom 62 : dot= 7.911560e-03  |g_a|= 2.640985e-02  |t_a|= 6.964994e-01  |prev->i|= 3.176323e-01  |i->next|= 3.922694e-01  cos_a= 4.301059e-01
+  atom 57 : dot= 5.887405e-03  |g_a|= 1.903391e-02  |t_a|= 6.362227e-01  |prev->i|= 3.143003e-01  |i->next|= 3.304318e-01  cos_a= 4.861685e-01
+  atom 61 : dot=-5.547492e-03  |g_a|= 3.561044e-02  |t_a|= 1.710749e-01  |prev->i|= 1.463349e-01  |i->next|= 4.292166e-02  cos_a=-9.106116e-01
+
+----------------------------------------------------------------------------------------------------
+bead t = 6
+indices: prev=0, cur=1, next=2
+----------------------------------------------------------------------------------------------------
+score:
+  triplet_score      = 4.97152485e-03
+  cos                = 7.05090409e-02
+  cos^2              = 4.97152485e-03
+  angle(g, tangent)  = 85.957 deg
+
+energy:
+  E_prev             = -1.169695487221
+  E_i                = -1.217478032727
+  E_next             = -1.227802976442
+  dE(prev->i)        = -4.77825455e-02
+  dE(i->next)        = -1.03249437e-02
+  dE(prev->next)     = -5.81074892e-02
+
+norms:
+  |g|                = 5.54947708e-02
+  |prev->next|       = 5.08316036e+00
+  |prev->i|          = 2.59598583e+00
+  |i->next|          = 2.83168048e+00
+
+extra cosines:
+  cos(g, prev->i)    = -6.78930623e-03   angle=90.389
+  cos(g, i->next)    = -1.20346848e-01   angle=96.912
+  cos(g, prev->next) = -7.05090409e-02   angle=94.043
+
+g decomposition relative to tangent:
+  |g_parallel|       = 3.91288306e-03
+  |g_perp|           = 5.53566521e-02
+  parallel_frac      = 7.05090409e-02
+
+moving-coordinate diagnostics:
+  moving coords      = 405/405  (tol=1.0e-10)
+  cos on moving only = 7.05090409e-02
+
+atom-wise cancellation diagnostics:
+  dot total          = 1.98898121e-02
+  sum |atom dots|    = 5.93878219e-02
+  cancellation ratio = 3.34913985e-01
+
+top atom contributions to g·tangent:
+  atom 62 : dot=-9.220025e-03  |g_a|= 1.935020e-02  |t_a|= 6.197323e-01  |prev->i|= 3.922694e-01  |i->next|= 2.372848e-01  cos_a=-7.688515e-01
+  atom 65 : dot= 4.813105e-03  |g_a|= 9.464082e-03  |t_a|= 6.076668e-01  |prev->i|= 2.678728e-01  |i->next|= 4.066592e-01  cos_a= 8.369150e-01
+  atom 63 : dot= 4.670617e-03  |g_a|= 1.156572e-02  |t_a|= 6.403319e-01  |prev->i|= 3.629860e-01  |i->next|= 3.027012e-01  cos_a= 6.306620e-01
+  atom 60 : dot= 2.667959e-03  |g_a|= 2.332039e-03  |t_a|= 1.148819e+00  |prev->i|= 5.414564e-01  |i->next|= 6.088710e-01  cos_a= 9.958447e-01
+  atom 23 : dot= 2.285783e-03  |g_a|= 8.191873e-03  |t_a|= 6.775926e-01  |prev->i|= 3.390673e-01  |i->next|= 3.681399e-01  cos_a= 4.117970e-01
+  atom 47 : dot= 2.099857e-03  |g_a|= 6.737298e-03  |t_a|= 3.560208e-01  |prev->i|= 1.373071e-01  |i->next|= 2.237615e-01  cos_a= 8.754445e-01
+  atom 90 : dot= 1.699397e-03  |g_a|= 4.258282e-03  |t_a|= 2.051176e+00  |prev->i|= 1.123548e+00  |i->next|= 1.017632e+00  cos_a= 1.945618e-01
+  atom 28 : dot= 1.493730e-03  |g_a|= 1.046655e-02  |t_a|= 3.584879e-01  |prev->i|= 1.627843e-01  |i->next|= 2.200720e-01  cos_a= 3.981018e-01
+
+----------------------------------------------------------------------------------------------------
+bead t = 7
+indices: prev=1, cur=2, next=6
+----------------------------------------------------------------------------------------------------
+score:
+  triplet_score      = 4.53268655e-03
+  cos                = 6.73252297e-02
+  cos^2              = 4.53268655e-03
+  angle(g, tangent)  = 86.140 deg
+
+energy:
+  E_prev             = -1.217478032727
+  E_i                = -1.227802976442
+  E_next             = -1.235366208865
+  dE(prev->i)        = -1.03249437e-02
+  dE(i->next)        = -7.56323242e-03
+  dE(prev->next)     = -1.78881761e-02
+
+norms:
+  |g|                = 2.96705881e-02
+  |prev->next|       = 6.14751536e+00
+  |prev->i|          = 2.83168048e+00
+  |i->next|          = 4.30086247e+00
+
+extra cosines:
+  cos(g, prev->i)    = -7.07512555e-03   angle=90.405
+  cos(g, i->next)    = -9.15742812e-02   angle=95.254
+  cos(g, prev->next) = -6.73252297e-02   angle=93.860
+
+g decomposition relative to tangent:
+  |g_parallel|       = 1.99757916e-03
+  |g_perp|           = 2.96032680e-02
+  parallel_frac      = 6.73252297e-02
+
+moving-coordinate diagnostics:
+  moving coords      = 405/405  (tol=1.0e-10)
+  cos on moving only = 6.73252297e-02
+
+atom-wise cancellation diagnostics:
+  dot total          = 1.22801486e-02
+  sum |atom dots|    = 2.43318565e-02
+  cancellation ratio = 5.04694270e-01
+
+top atom contributions to g·tangent:
+  atom 36 : dot= 1.534075e-03  |g_a|= 1.350644e-03  |t_a|= 1.256138e+00  |prev->i|= 4.018337e-01  |i->next|= 8.609854e-01  cos_a= 9.042080e-01
+  atom 35 : dot= 1.336288e-03  |g_a|= 1.157955e-03  |t_a|= 1.163467e+00  |prev->i|= 4.086621e-01  |i->next|= 7.723823e-01  cos_a= 9.918686e-01
+  atom 34 : dot= 9.392956e-04  |g_a|= 8.257406e-04  |t_a|= 1.275077e+00  |prev->i|= 4.918320e-01  |i->next|= 7.944745e-01  cos_a= 8.921180e-01
+  atom 117 : dot= 9.081165e-04  |g_a|= 1.425987e-03  |t_a|= 8.009591e-01  |prev->i|= 3.100588e-01  |i->next|= 6.316127e-01  cos_a= 7.950890e-01
+  atom 48 : dot= 8.891269e-04  |g_a|= 1.488306e-03  |t_a|= 8.551741e-01  |prev->i|= 2.912374e-01  |i->next|= 5.723118e-01  cos_a= 6.985813e-01
+  atom 33 : dot= 8.222744e-04  |g_a|= 9.628829e-04  |t_a|= 9.463476e-01  |prev->i|= 3.287173e-01  |i->next|= 6.382876e-01  cos_a= 9.023866e-01
+  atom 98 : dot=-6.555854e-04  |g_a|= 7.158913e-04  |t_a|= 1.033174e+00  |prev->i|= 4.244482e-01  |i->next|= 6.155108e-01  cos_a=-8.863574e-01
+  atom 47 : dot=-5.746896e-04  |g_a|= 1.030713e-03  |t_a|= 6.649271e-01  |prev->i|= 2.237615e-01  |i->next|= 4.453420e-01  cos_a=-8.385357e-01
+
+==========
+TOTAL chain score = 0.0859604379
+==========
+-0.07813764506569297 0.006105491576412213
+
+Time wasted: 97.12 s
+
+Process finished with exit code 0

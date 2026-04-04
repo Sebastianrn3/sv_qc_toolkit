@@ -1,0 +1,88 @@
+C:\Users\User\AppData\Local\Programs\Python\Python313\python.exe C:\Users\User\Desktop\qc_mopac\main.py 
+Calculation started
+job cocaine_i3p-n7_linear_05
+interpolation method: linear
+k selection method: rmsd
+idxs selected: [  0  25  49  74  99 123 148] of 149
+idxs selected: [  0  22  43  65  87 108 130] of 131
+idxs selected: [  0  22  44  66  89 111 133] of 134
+idxs selected: [ 0 10 20 30 40 50 60] of 61
+idxs selected: [  0  38  75 112 150 188 225] of 226
+idxs selected: [  0  58 117 175 233 292 350] of 351
+idxs selected: [  0  44  88 132 175 219 263] of 264
+idxs selected: [  0  48  96 144 191 239 287] of 288
+idxs selected: [  0  52 104 156 209 261 313] of 314
+Images in chain: 7 +2  Selected: 7  Combos: 823543 , miu= 0.1
+Meaningfuls are 823543/823543
+Top combos:
+1. score = 0.033878, inner combo = (1, 0, 0, 1, 0, 0, 0)
+2. score = 0.033531, inner combo = (2, 0, 0, 1, 0, 0, 0)
+3. score = 0.033289, inner combo = (0, 0, 4, 1, 0, 0, 0)
+4. score = 0.033281, inner combo = (0, 0, 5, 1, 0, 0, 0)
+5. score = 0.033281, inner combo = (0, 0, 6, 1, 0, 0, 0)
+
+Diagnostics:
+cos median               =-0.0005308
+abs(cos) median          =0.001301
+abs(cos) p95             =2.920e-02
+117992 0.03387797810221005 (1, 0, 0, 1, 0, 0, 0)
+235641 0.03353093350941872 (2, 0, 0, 1, 0, 0, 0)
+9947 0.03328858461337233 (0, 0, 4, 1, 0, 0, 0)
+12348 0.03328079703774656 (0, 0, 5, 1, 0, 0, 0)
+14749 0.03328079700345771 (0, 0, 6, 1, 0, 0, 0)
+full combo: (6, 1, 0, 0, 1, 0, 0, 0, 6)
+---------
+bead 1/7, k=1, angle 90.2 deg
+  triplet_score, cos  = 1.491e-05, -0.003861
+ E_i, dE(i-1->i->i+1) = -0.561802, 0.00 -> 0.04
+norms: |g|,|prev->next|,|prev->next|      = 0.19128, 2.0482, 2.4767
+g decomp-to-tangent: |g_parallel|,|g_perp|= 0.00073847, 0.19127
+atom's sum(|g⋅t|) / sum(g⋅t)               = 0.051494
+---------
+bead 2/7, k=0, angle 95.1 deg
+  triplet_score, cos  = 0.008017, -0.08954
+ E_i, dE(i-1->i->i+1) = -0.522016, 0.04 -> 0.06
+norms: |g|,|prev->next|,|prev->next|      = 0.21418, 2.4767, 1.6863
+g decomp-to-tangent: |g_parallel|,|g_perp|= 0.019177, 0.21332
+atom's sum(|g⋅t|) / sum(g⋅t)               = 0.52546
+---------
+bead 3/7, k=0, angle 90.2 deg
+  triplet_score, cos  = 1.336e-05, -0.003655
+ E_i, dE(i-1->i->i+1) = -0.464003, 0.06 -> -0.12
+norms: |g|,|prev->next|,|prev->next|      = 0.27648, 1.6863, 5.0991
+g decomp-to-tangent: |g_parallel|,|g_perp|= 0.0010105, 0.27648
+atom's sum(|g⋅t|) / sum(g⋅t)               = 0.020349
+---------
+bead 4/7, k=1, angle 90.2 deg
+  triplet_score, cos  = 7.06e-06, -0.002657
+ E_i, dE(i-1->i->i+1) = -0.582057, -0.12 -> 0.04
+norms: |g|,|prev->next|,|prev->next|      = 0.18306, 5.0991, 4.0308
+g decomp-to-tangent: |g_parallel|,|g_perp|= 0.00048639, 0.18306
+atom's sum(|g⋅t|) / sum(g⋅t)               = 0.032992
+---------
+bead 5/7, k=0, angle 94.4 deg
+  triplet_score, cos  = 0.006011, -0.07753
+ E_i, dE(i-1->i->i+1) = -0.541777, 0.04 -> 0.11
+norms: |g|,|prev->next|,|prev->next|      = 0.20425, 4.0308, 1.7342
+g decomp-to-tangent: |g_parallel|,|g_perp|= 0.015836, 0.20363
+atom's sum(|g⋅t|) / sum(g⋅t)               = 0.46569
+---------
+bead 6/7, k=0, angle 97.6 deg
+  triplet_score, cos  = 0.0176, -0.1327
+ E_i, dE(i-1->i->i+1) = -0.428147, 0.11 -> -0.06
+norms: |g|,|prev->next|,|prev->next|      = 0.40716, 1.7342, 1.5171
+g decomp-to-tangent: |g_parallel|,|g_perp|= 0.054016, 0.40356
+atom's sum(|g⋅t|) / sum(g⋅t)               = 0.60904
+---------
+bead 7/7, k=0, angle 87.3 deg
+  triplet_score, cos  = 0.002214, 0.04705
+ E_i, dE(i-1->i->i+1) = -0.486657, -0.06 -> -0.10
+norms: |g|,|prev->next|,|prev->next|      = 0.30933, 1.5171, 9.3455
+g decomp-to-tangent: |g_parallel|,|g_perp|= 0.014555, 0.30899
+atom's sum(|g⋅t|) / sum(g⋅t)               = 0.24485
+======
+Total chain score = 0.033878
+
+Time wasted: 55.10 s
+
+Process finished with exit code 0

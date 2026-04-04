@@ -1,0 +1,8 @@
+#l-aspartate alpha-decarboxylase
+interpolation_method = "idpp" #"linear" or "idpp"
+image_pool_selection = "rmsd" #"rmsd" or "indices"
+n_interpolated = 7
+k_select = 7
+
+CHARGE = 0
+UNPAIRED_ELECTRONS = 0

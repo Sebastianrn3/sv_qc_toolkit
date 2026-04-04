@@ -1,0 +1,68 @@
+from pathlib import Path
+
+from settings.config import JOBS_DIR, MOPAC_EXE_PATH
+from settings.jobs.hcn import GEOMETRIES_DIR
+from settings.models import JobConfig
+
+#folder name under data/jobs/
+JOB_ID = "cocaine"
+JOB_DIR = JOBS_DIR / JOB_ID
+
+#template subfolders
+REFERENCES_DIR  = JOB_DIR / "00_references"
+INPUT_DIR = JOB_DIR / "01_inputs"
+GEOMETRIES_DIR = JOB_DIR / "02_geometries"
+OPT_DIR   = JOB_DIR / "03_opt"
+NEB_DIR   = JOB_DIR / "04_neb"
+ANALYSIS_DIR   = JOB_DIR / "05_analysis"
+
+#raw inputs
+# INT2_XYZ = REFERENCES_DIR / "2_deacylation" /"INT2'.xyz"
+INT3_XYZ = REFERENCES_DIR / "2_deacylation" /"INT3.xyz"
+PROD_XYZ = REFERENCES_DIR / "2_deacylation" /"PD.xyz"
+
+#after simple align inputs
+INT3_XYZ_ALIGNED = INPUT_DIR /"INT3_aligned.xyz"
+PROD_XYZ_ALIGNED = INPUT_DIR /"PROD_aligned.xyz"
+
+#Per-job MOPAC working directory
+MOPAC_WORKDIR = OPT_DIR / "mopac"
+
+CHARGE = -1
+UNPAIRED_ELECTRONS = 0
+
+FIXED_ATOMS_1BASED = [11, 2, 19, 20, 26, 27]
+# FIXED_ATOMS_1BASED = [2, 20, 27]
+FIXED_ATOMS_0BASED = [i - 1 for i in FIXED_ATOMS_1BASED]
+
+
+# RIGID_GROUPS_1BASED  =  [
+#     [*range(1, 6), 40],
+#     [*range(6, 19), *range(38, 40)],
+#     [*range(19, 26)],
+#     [*range(26, 38)],#his ##
+# ]
+
+FIXED_ATOMS_0BASED = [i - 1 for i in FIXED_ATOMS_1BASED]
+# RIGID_GROUPS_0BASED = [[i - 1 for i in g] for g in RIGID_GROUPS_1BASED]
+
+
+CFG = JobConfig(
+    jobname=JOB_ID,
+    charge=CHARGE,
+    unpaired_electrons=UNPAIRED_ELECTRONS,
+
+    fixed_atoms=FIXED_ATOMS_0BASED,
+
+    mopac_path=MOPAC_WORKDIR,
+    mopac_exe=MOPAC_EXE_PATH,
+
+    inputs_folder=INPUT_DIR,
+    geometries_folder=GEOMETRIES_DIR,
+    opt_folder=OPT_DIR,
+    neb_folder=NEB_DIR,
+    analysis_folder=ANALYSIS_DIR
+
+)
+
+

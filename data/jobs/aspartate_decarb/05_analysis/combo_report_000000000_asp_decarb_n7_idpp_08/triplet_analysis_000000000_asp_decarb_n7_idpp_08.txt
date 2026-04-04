@@ -1,0 +1,52 @@
+full combo: (0, 0, 0, 0, 0, 0, 0, 0, 0)
+---------
+bead 1/7, k=0, angle 93 deg
+  triplet_score, cos  = 0.002819, -0.05309
+ E_i, dE(i-1->i->i+1) = -1.19731, 0.00 -> 0.00
+norms: |g|,|prev->next|,|prev->next|      = 0.067842, 2.0313, 2.4152
+g decomp-to-tangent: |g_parallel|,|g_perp|= 0.0036019, 0.067746
+atom's sum(|g⋅t|) / sum(g⋅t)               = 0.27361
+---------
+bead 2/7, k=0, angle 88.7 deg
+  triplet_score, cos  = 0.000554, 0.02354
+ E_i, dE(i-1->i->i+1) = -1.19473, 0.00 -> -0.00
+norms: |g|,|prev->next|,|prev->next|      = 0.10465, 2.4152, 2.6846
+g decomp-to-tangent: |g_parallel|,|g_perp|= 0.0024632, 0.10462
+atom's sum(|g⋅t|) / sum(g⋅t)               = 0.17756
+---------
+bead 3/7, k=0, angle 89.4 deg
+  triplet_score, cos  = 0.0001228, 0.01108
+ E_i, dE(i-1->i->i+1) = -1.19835, -0.00 -> 0.00
+norms: |g|,|prev->next|,|prev->next|      = 0.070515, 2.6846, 2.5468
+g decomp-to-tangent: |g_parallel|,|g_perp|= 0.00078151, 0.070511
+atom's sum(|g⋅t|) / sum(g⋅t)               = 0.0632
+---------
+bead 4/7, k=0, angle 90.3 deg
+  triplet_score, cos  = 3.361e-05, -0.005797
+ E_i, dE(i-1->i->i+1) = -1.19701, 0.00 -> 0.03
+norms: |g|,|prev->next|,|prev->next|      = 0.080726, 2.5468, 2.3495
+g decomp-to-tangent: |g_parallel|,|g_perp|= 0.00046798, 0.080724
+atom's sum(|g⋅t|) / sum(g⋅t)               = 0.034643
+---------
+bead 5/7, k=0, angle 88.8 deg
+  triplet_score, cos  = 0.0004576, 0.02139
+ E_i, dE(i-1->i->i+1) = -1.16814, 0.03 -> -0.04
+norms: |g|,|prev->next|,|prev->next|      = 0.18745, 2.3495, 2.227
+g decomp-to-tangent: |g_parallel|,|g_perp|= 0.0040097, 0.18741
+atom's sum(|g⋅t|) / sum(g⋅t)               = 0.11915
+---------
+bead 6/7, k=0, angle 88.4 deg
+  triplet_score, cos  = 0.0008254, 0.02873
+ E_i, dE(i-1->i->i+1) = -1.21131, -0.04 -> 0.00
+norms: |g|,|prev->next|,|prev->next|      = 0.04595, 2.227, 1.9367
+g decomp-to-tangent: |g_parallel|,|g_perp|= 0.0013202, 0.045931
+atom's sum(|g⋅t|) / sum(g⋅t)               = 0.1221
+---------
+bead 7/7, k=0, angle 90.3 deg
+  triplet_score, cos  = 3.463e-05, -0.005884
+ E_i, dE(i-1->i->i+1) = -1.20761, 0.00 -> -0.00
+norms: |g|,|prev->next|,|prev->next|      = 0.059357, 1.9367, 1.7555
+g decomp-to-tangent: |g_parallel|,|g_perp|= 0.00034927, 0.059356
+atom's sum(|g⋅t|) / sum(g⋅t)               = 0.030806
+======
+Total chain score = 0.0048469

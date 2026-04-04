@@ -1,0 +1,48 @@
+C:\Users\User\AppData\Local\Programs\Python\Python313\python.exe C:\Users\User\Desktop\qc_mopac\main.py 
+Calculation started
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\qc_mopac\main.py", line 18, in <module>
+    main("cocaine2")
+    ~~~~^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\qc_mopac\main.py", line 14, in main
+    mod = importlib.import_module(modname)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\User\Desktop\qc_mopac\runs\run_cocaine2.py", line 114, in <module>
+    reactant_xyz_path=xyz_start,
+                      ^^^^^^^^^
+NameError: name 'xyz_start' is not defined
+job cocaine_i3p-n7_linear_06
+interpolation method: linear
+k selection method: rmsd
+FIXED ATOMS 0BASED:[1, 19, 26] ---
+RMSD before:      0.960323 A
+Max diff before:  1.365321 A
+RMSD after:       0.305091 A
+Max diff after:   0.382685 A
+DIFFERENCE IS NOTICEABLE - ATTENTION NEEDED
+atom 1: 0.021616 A
+atom 19: 0.363767 A
+atom 26: 0.382685 A
+Aligned xyz saved to: C:\Users\User\Desktop\qc_mopac\data\jobs\cocaine\01_inputs\PROD_aligned
+None
+FIXED ATOMS 0BASED:[1, 19, 26] ---
+RMSD before:      0.440043 A
+Max diff before:  0.732861 A
+RMSD after:       0.133696 A
+Max diff after:   0.169018 A
+DIFFERENCE IS NOTICEABLE - ATTENTION NEEDED
+atom 1: 0.030414 A
+atom 19: 0.155344 A
+atom 26: 0.169018 A
+Aligned xyz saved to: C:\Users\User\Desktop\qc_mopac\data\jobs\cocaine\01_inputs\INT2'_aligned
+None
+
+Process finished with exit code 1

@@ -1,0 +1,109 @@
+C:\Users\User\AppData\Local\Programs\Python\Python313\python.exe C:\Users\User\Desktop\qc_mopac\main.py 
+Calculation started
+0.9779186032380066
+job asp_decarb_n7_idpp_05
+interpolation method: idpp
+k selection method: rmsd
+{'total': 155, 'global': 4, 'local': 3, 'first_step_bad': 1, 'final_removed': 8}
+[OK] cleaned: relaxation_0R.npz
+{'total': 144, 'global': 4, 'local': 1, 'first_step_bad': 1, 'final_removed': 6}
+[OK] cleaned: relaxation_1of7.npz
+{'total': 295, 'global': 5, 'local': 13, 'first_step_bad': 1, 'final_removed': 19}
+[OK] cleaned: relaxation_2of7.npz
+{'total': 216, 'global': 6, 'local': 4, 'first_step_bad': 1, 'final_removed': 11}
+[OK] cleaned: relaxation_3of7.npz
+{'total': 174, 'global': 3, 'local': 5, 'first_step_bad': 1, 'final_removed': 9}
+[OK] cleaned: relaxation_4of7.npz
+{'total': 187, 'global': 1, 'local': 4, 'first_step_bad': 1, 'final_removed': 5}
+[OK] cleaned: relaxation_5of7.npz
+{'total': 230, 'global': 6, 'local': 6, 'first_step_bad': 1, 'final_removed': 13}
+[OK] cleaned: relaxation_6of7.npz
+{'total': 149, 'global': 4, 'local': 3, 'first_step_bad': 1, 'final_removed': 7}
+[OK] cleaned: relaxation_7of7.npz
+{'total': 149, 'global': 4, 'local': 4, 'first_step_bad': 1, 'final_removed': 9}
+[OK] cleaned: relaxation_8P.npz
+All clean npz saved to: C:\Users\User\Desktop\qc_mopac\data\jobs\aspartate_decarb\03_opt\asp_decarb_n7_idpp_05
+idxs selected: [  0  15  31  57  74  88 147] of 148
+idxs selected: [  0  14  30  52  70  86 138] of 139
+idxs selected: [  0  35  69 104 145 186 276] of 277
+idxs selected: [  0  23  53  84 110 166 205] of 206
+idxs selected: [  0  22  45  66  93 106 165] of 166
+idxs selected: [  0  21  45  69  89 132 182] of 183
+idxs selected: [  0  27  49  77 109 151 217] of 218
+idxs selected: [  0  17  33  49  68  94 142] of 143
+idxs selected: [  0  16  31  45  66  86 140] of 141
+Images in chain: 7 +2  Selected: 7  Combos: 823543 , miu= 0.1
+Meaningfuls are 823543/823543
+Top combos:
+1. score = 0.063271, inner combo = (0, 4, 0, 0, 3, 0, 0)
+2. score = 0.062214, inner combo = (0, 4, 0, 0, 4, 0, 0)
+3. score = 0.060621, inner combo = (0, 4, 0, 0, 2, 0, 0)
+4. score = 0.060170, inner combo = (0, 4, 0, 0, 5, 0, 0)
+5. score = 0.058978, inner combo = (0, 2, 0, 0, 3, 0, 0)
+
+Diagnostics:
+cos median               =0.004643
+abs(cos) median          =0.0187
+abs(cos) p95             =8.043e-02
+67375 0.06327142171844483 (0, 4, 0, 0, 3, 0, 0)
+67424 0.0622142616927496 (0, 4, 0, 0, 4, 0, 0)
+67326 0.06062054748252736 (0, 4, 0, 0, 2, 0, 0)
+67473 0.06017008675167082 (0, 4, 0, 0, 5, 0, 0)
+33761 0.05897774177853001 (0, 2, 0, 0, 3, 0, 0)
+full combo: (6, 0, 4, 0, 0, 3, 0, 0, 6)
+---------
+bead 1/7, k=0, angle 93.7 deg
+  triplet_score, cos  = 0.004133, -0.06429
+ E_i, dE(i-1->i->i+1) = -1.19731, 0.03 -> -0.03
+norms: |g|,|prev->next|,|prev->next|      = 0.067842, 6.574, 9.5199
+g decomp-to-tangent: |g_parallel|,|g_perp|= 0.0043617, 0.067701
+atom's sum(|g⋅t|) / sum(g⋅t)               = 0.28553
+---------
+bead 2/7, k=4, angle 84.8 deg
+  triplet_score, cos  = 0.008181, 0.09045
+ E_i, dE(i-1->i->i+1) = -1.23079, -0.03 -> 0.03
+norms: |g|,|prev->next|,|prev->next|      = 0.083041, 9.5199, 7.1946
+g decomp-to-tangent: |g_parallel|,|g_perp|= 0.007511, 0.0827
+atom's sum(|g⋅t|) / sum(g⋅t)               = 0.42466
+---------
+bead 3/7, k=0, angle 96.5 deg
+  triplet_score, cos  = 0.01287, -0.1134
+ E_i, dE(i-1->i->i+1) = -1.19835, 0.03 -> 0.00
+norms: |g|,|prev->next|,|prev->next|      = 0.070515, 7.1946, 2.5468
+g decomp-to-tangent: |g_parallel|,|g_perp|= 0.0079986, 0.07006
+atom's sum(|g⋅t|) / sum(g⋅t)               = 0.48411
+---------
+bead 4/7, k=0, angle 85 deg
+  triplet_score, cos  = 0.00749, 0.08654
+ E_i, dE(i-1->i->i+1) = -1.19701, 0.00 -> -0.03
+norms: |g|,|prev->next|,|prev->next|      = 0.080726, 2.5468, 4.6619
+g decomp-to-tangent: |g_parallel|,|g_perp|= 0.0069863, 0.080423
+atom's sum(|g⋅t|) / sum(g⋅t)               = 0.44574
+---------
+bead 5/7, k=3, angle 89.2 deg
+  triplet_score, cos  = 0.00019, 0.01379
+ E_i, dE(i-1->i->i+1) = -1.22951, -0.03 -> 0.02
+norms: |g|,|prev->next|,|prev->next|      = 0.02282, 4.6619, 3.8632
+g decomp-to-tangent: |g_parallel|,|g_perp|= 0.00031458, 0.022818
+atom's sum(|g⋅t|) / sum(g⋅t)               = 0.13361
+---------
+bead 6/7, k=0, angle 98.4 deg
+  triplet_score, cos  = 0.02126, -0.1458
+ E_i, dE(i-1->i->i+1) = -1.21131, 0.02 -> 0.00
+norms: |g|,|prev->next|,|prev->next|      = 0.04595, 3.8632, 1.9367
+g decomp-to-tangent: |g_parallel|,|g_perp|= 0.0066997, 0.045459
+atom's sum(|g⋅t|) / sum(g⋅t)               = 0.59669
+---------
+bead 7/7, k=0, angle 84.5 deg
+  triplet_score, cos  = 0.009152, 0.09567
+ E_i, dE(i-1->i->i+1) = -1.20761, 0.00 -> -0.03
+norms: |g|,|prev->next|,|prev->next|      = 0.059357, 1.9367, 5.7333
+g decomp-to-tangent: |g_parallel|,|g_perp|= 0.0056784, 0.059084
+atom's sum(|g⋅t|) / sum(g⋅t)               = 0.47391
+======
+Total chain score = 0.063271
+Saved chain xyz to best_chain_asp_decarb_n7_idpp_05.xyz
+
+Time wasted: 70.20 s
+
+Process finished with exit code 0

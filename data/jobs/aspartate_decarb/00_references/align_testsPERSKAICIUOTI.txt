@@ -1,0 +1,78 @@
+model 3
+Calculation started
+FIXED ATOMS 0BASED:[0, 12, 4, 26, 51, 39, 20, 38, 21, 43] ---
+RMSD before:    21.994290 A
+Max diff: 39.017734 A
+RMSD after:  0.906274 A
+Max diff after:           1.557448 A
+DIFFERENCE IS NOTICEBLE - ATTENTION NEEDED
+atom 0: 0.959965 A
+atom 12: 1.331235 A
+atom 4: 0.634535 A
+atom 26: 0.607269 A
+atom 51: 0.605098 A
+atom 39: 0.610950 A
+atom 20: 0.736080 A
+atom 38: 1.019116 A
+atom 21: 1.557448 A
+atom 43: 0.052247 A
+{'rmsd_before': np.float64(21.994290463964877), 'rmsd_after': np.float64(0.9062736504439743), 'max_diff_after': np.float64(1.5574480488684952), 'rotation_matrix': array([[-0.99907279,  0.00768206, -0.04236204],
+       [ 0.01389769,  0.98882239, -0.14844908],
+       [ 0.04074814, -0.14890018, -0.98801231]]), 'translation_vector': array([ 3.01100362, -0.00694739, -1.38430413])}
+
+Time wasted: 1.24 s
+
+
+MODEL 4.1
+Calculation started
+FIXED ATOMS 0BASED:[0, 12, 4, 26, 38, 69, 21, 80, 20, 76, 51, 43, 39] ---
+RMSD before:    0.922481 A
+Max diff: 1.438946 A
+RMSD after:  1.755375 A
+Max diff after:           2.689636 A
+DIFFERENCE IS NOTICEBLE - ATTENTION NEEDED
+atom 0: 1.708376 A
+atom 12: 2.689636 A
+atom 4: 1.821761 A
+atom 26: 1.986567 A
+atom 38: 2.275539 A
+atom 69: 1.703433 A
+atom 21: 2.389143 A
+atom 80: 1.594997 A
+atom 20: 0.810119 A
+atom 76: 1.767207 A
+atom 51: 1.268626 A
+atom 43: 0.813383 A
+atom 39: 0.507315 A
+{'rmsd_before': np.float64(0.9224810160307334), 'rmsd_after': np.float64(1.7553745633074165), 'max_diff_after': np.float64(2.689636345541808), 'rotation_matrix': array([[ 0.99713542, -0.0749341 , -0.0102873 ],
+       [ 0.07481863,  0.99713443, -0.01118505],
+       [ 0.01109596,  0.01038333,  0.99988453]]), 'translation_vector': array([-0.17920505, -0.21690146, -0.01865872])}
+
+Time wasted: 1.22 s
+
+Model 4.2
+:\Users\User\AppData\Local\Programs\Python\Python313\python.exe C:\Users\User\Desktop\qc_mopac\main.py 
+Calculation started
+FIXED ATOMS 0BASED:[4, 0, 63, 10, 66, 32, 44, 61, 53, 49, 26, 27] ---
+RMSD before:    2.003400 A
+Max diff: 3.318053 A
+RMSD after:  3.786009 A
+Max diff after:           5.510368 A
+DIFFERENCE IS NOTICEBLE - ATTENTION NEEDED
+atom 4: 0.168512 A
+atom 0: 3.499152 A
+atom 63: 2.874286 A
+atom 10: 4.278584 A
+atom 66: 5.016736 A
+atom 32: 3.826717 A
+atom 44: 4.809385 A
+atom 61: 3.300734 A
+atom 53: 3.298360 A
+atom 49: 3.485431 A
+atom 26: 2.436817 A
+atom 27: 5.510368 A
+{'rmsd_before': np.float64(2.0033996395076152), 'rmsd_after': np.float64(3.7860085819894755), 'max_diff_after': np.float64(5.510367695549728), 'rotation_matrix': array([[ 0.99779644, -0.00674087, -0.06600624],
+       [-0.00451913,  0.98561092, -0.1689695 ],
+       [ 0.06619548,  0.16889546,  0.9834086 ]]), 'translation_vector': array([-0.11091149,  0.06107926, -0.61821304])}
+
+Time wasted: 1.29 s

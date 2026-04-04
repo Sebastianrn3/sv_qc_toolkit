@@ -1,0 +1,17 @@
+proline catalyzed aldol reaction  (2-MC with and 3-MC without DMSO)
+
+2-MC, paprastesnis:
+
+4b_GMS
+5b_TS
+5b_eq
+6b_TS
+6b_eq
+
+3-MC, teisingesnis:
+
+4B_GMS
+5B_TS
+5B_LM-1(GMS)
+6B_TS
+6B_eq
